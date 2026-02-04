@@ -1,11 +1,11 @@
-Telco Customer Churn Analysis & Prediction
+Telco Customer Churn Analysis and Prediction
 Project Overview
 
-This project focuses on analyzing a real-world telecom customer churn dataset to identify key factors influencing customer churn and to build a basic machine learning model for churn prediction.
+This project analyzes a real-world telecom customer churn dataset to extract meaningful insights and build a basic machine learning model to predict customer churn.
 
-The goal is to demonstrate the ability to:
+The objective of this project is to demonstrate the ability to:
 
-Understand and clean real datasets
+Understand and clean real-world data
 
 Perform exploratory data analysis (EDA)
 
@@ -13,25 +13,25 @@ Engineer relevant features
 
 Build and evaluate a machine learning model
 
-Translate technical results into business insights
+Translate analytical results into business-oriented insights
 
 This project was completed as part of an internship assessment.
 
 Dataset Description
 
-The dataset contains customer-level information including:
+The dataset contains customer-level information related to:
 
-Demographics (gender, location)
+Customer demographics
 
-Service details (internet service, contract type)
+Services subscribed
 
-Billing information (monthly charges, total charges)
+Billing and payment details
 
-Customer behavior indicators
+Contract information
 
-Churn information
+Churn indicators
 
-Target Variable:
+Target Variable
 
 Churn Value
 
@@ -41,64 +41,64 @@ Churn Value
 
 This is a binary classification problem.
 
-Tools & Technologies Used
+Tools and Technologies Used
 
 Programming Language: Python
 
 Libraries:
 
-pandas, numpy (data manipulation)
+pandas, numpy – data manipulation
 
-matplotlib, seaborn (visualization)
+matplotlib, seaborn – data visualization
 
-scikit-learn (modeling & evaluation)
+scikit-learn – machine learning and evaluation
 
 Environment: Jupyter Notebook
 
 Project Workflow
-1. Data Understanding & Cleaning
+1. Data Understanding and Cleaning
 
-Loaded the dataset and examined its structure
+Loaded the dataset and inspected its structure
 
-Identified missing values and calculated missing percentages
+Identified missing values and calculated the percentage of missing values per column
 
 Converted Total Charges to numeric format
 
-Removed rows with invalid or missing values (minimal data loss)
+Removed rows with missing or invalid values (minimal data loss)
 
-Identified numerical and categorical features
+Identified categorical and numerical features
 
-Checked for obvious outliers
+Checked for obvious outliers in numerical columns
 
 2. Exploratory Data Analysis (EDA)
 
-Analyzed the distribution of churn vs non-churn customers
+Analyzed the distribution of churned vs non-churned customers
 
-Generated basic statistics for numerical features
+Generated basic statistics such as mean and median
 
-Created key visualizations:
+Created meaningful visualizations:
 
-Target variable distribution
+Churn distribution
 
 Correlation heatmap
 
-Feature-to-target relationship plots
+Feature vs target relationship plots
 
 Documented clear observations from each visualization
 
 3. Feature Engineering
 
-Selected relevant numerical features
+Selected relevant numerical features for modeling
 
 Encoded the target variable
 
-Applied feature scaling using StandardScaler
+Scaled numerical features using StandardScaler
 
-Chose features based on correlation and business understanding
+Performed feature selection based on correlation and business understanding
 
 4. Model Building
 
-Split the data into training and testing sets
+Split the dataset into training and testing sets
 
 Built a Logistic Regression model as a baseline classifier
 
@@ -110,11 +110,11 @@ Suitable for binary classification
 
 Easy to interpret
 
-Strong baseline for churn prediction problems
+Provides a strong baseline for churn prediction
 
 5. Model Evaluation
 
-Evaluated the model using:
+The model was evaluated using:
 
 Accuracy
 
@@ -126,47 +126,51 @@ F1-score
 
 Metric Justification:
 
-Recall is especially important in churn prediction, as missing a churner is more costly than contacting a non-churner.
+Recall is important in churn prediction because missing a churned customer is more costly than contacting a non-churned customer
 
-F1-score provides a balance between precision and recall.
+F1-score provides a balanced measure of model performance
 
 Key Insights
 
-Customers with shorter tenure are more likely to churn
+Customers with short tenure are more likely to churn
 
-Month-to-month contracts show significantly higher churn rates
+Month-to-month contracts have the highest churn rate
 
 Higher monthly charges are associated with increased churn
 
-Long-term contracts help reduce customer churn
+Long-term contracts significantly reduce churn risk
 
 Business Recommendations
 
-Encourage month-to-month customers to switch to long-term contracts through discounts or benefits
+Encourage customers on month-to-month contracts to switch to long-term plans using discounts or incentives
 
-Introduce loyalty programs for customers completing key tenure milestones
+Introduce loyalty programs for customers who complete key tenure milestones
 
-Provide targeted offers to customers with high monthly charges
+Target high-risk customers with personalized retention offers
 
-Possible Improvements
+Additional Data That Could Improve the Model
 
-Include customer support and complaint data
+Customer support and complaint history
 
-Add usage behavior metrics (call/data usage trends)
+Usage behavior trends (data usage, call frequency)
 
-Experiment with advanced models such as Random Forests or Neural Networks
+Payment behavior and billing issues
 
-Address class imbalance using resampling techniques
+Network and service quality metrics
+
+Customer engagement data
 
 How to Run the Project
 
 Place Telco_Churn_Assignment.ipynb and Task.csv in the same directory
 
-Open the notebook in Jupyter Notebook or JupyterLab
+Open the notebook using Jupyter Notebook or JupyterLab
 
-Run cells sequentially from top to bottom
+Run all cells sequentially from top to bottom
 
 Author
 
 Deep
-Aspiring Data Analyst / Machine Learning Enthusiast
+Aspiring Data Analyst and Machine Learning Enthusiast
+
+Final Note
