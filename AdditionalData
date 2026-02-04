@@ -1,0 +1,105 @@
+Additional Data That Could Improve Churn Prediction
+1️⃣ Customer Usage Behavior (Very Important)
+
+Examples:
+
+Daily / monthly data usage
+
+Call duration and frequency
+
+Peak vs off-peak usage
+
+Sudden drop in usage
+
+Why it helps:
+Customers who reduce usage suddenly are strong churn signals — much stronger than demographics.
+
+2️⃣ Customer Support & Complaint Data
+
+Examples:
+
+Number of complaints
+
+Support tickets raised
+
+Resolution time
+
+Complaint category (billing, network, service)
+
+Why it helps:
+Frequent complaints + slow resolution = high churn probability.
+
+This data is extremely predictive in real companies.
+
+3️⃣ Payment & Billing Behavior
+
+Examples:
+
+Late payments
+
+Failed transactions
+
+Change in payment method
+
+Bill disputes
+
+Why it helps:
+Payment friction often happens just before churn.
+
+4️⃣ Engagement & Interaction Data
+
+Examples:
+
+App or website login frequency
+
+Email / SMS offer interaction
+
+Response to promotions
+
+Customer portal activity
+
+Why it helps:
+Low engagement usually means low attachment to the service.
+
+5️⃣ Network / Service Quality Metrics
+
+Examples:
+
+Call drops
+
+Internet speed issues
+
+Outage history by location
+
+Signal strength
+
+Why it helps:
+Poor service quality is a direct churn driver, especially in telecom.
+
+6️⃣ Competitor & Market Data (Advanced Answer)
+
+Examples:
+
+Competitor pricing changes
+
+New competitor launches in customer’s area
+
+Port-out requests
+
+Why it helps:
+Churn is often triggered by external market events, not internal factors.
+
+7️⃣ Customer Lifecycle Events
+
+Examples:
+
+Plan upgrades or downgrades
+
+Recent contract renewal
+
+Device change
+
+Relocation
+
+Why it helps:
+Certain events increase churn risk if not handled properly.
