@@ -11,7 +11,7 @@ Peak vs off-peak usage
 
 Sudden drop in usage
 
-Why it helps:
+
 Customers who reduce usage suddenly are strong churn signals — much stronger than demographics.
 
 2️⃣ Customer Support & Complaint Data
@@ -43,7 +43,7 @@ Change in payment method
 
 Bill disputes
 
-Why it helps:
+
 Payment friction often happens just before churn.
 
 4️⃣ Engagement & Interaction Data
@@ -58,7 +58,7 @@ Response to promotions
 
 Customer portal activity
 
-Why it helps:
+
 Low engagement usually means low attachment to the service.
 
 5️⃣ Network / Service Quality Metrics
@@ -76,8 +76,7 @@ Signal strength
 Why it helps:
 Poor service quality is a direct churn driver, especially in telecom.
 
-6️⃣ Competitor & Market Data (Advanced Answer)
-
+6️⃣ Competitor & Market Data 
 Examples:
 
 Competitor pricing changes
@@ -97,9 +96,7 @@ Plan upgrades or downgrades
 
 Recent contract renewal
 
-Device change
 
-Relocation
 
-Why it helps:
-Certain events increase churn risk if not handled properly.
+
+
